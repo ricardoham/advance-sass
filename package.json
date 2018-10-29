@@ -1,0 +1,15 @@
+{
+  "name": "advance-css-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [],
+  "author": "Ricardo Junior",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
