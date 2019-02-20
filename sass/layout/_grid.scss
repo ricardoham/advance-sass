@@ -1,6 +1,6 @@
 .row {
   max-width: $grid-width; // max-witdh if there is not available space it has the especified size
-  background-color: green;
+  // background-color: green;
   margin: 0 auto; // centers the elements inside of another block element
 
   // select everything except the last child
@@ -13,7 +13,7 @@
   // Select all element with this [] atributte
   // Ex: select all that start (^) with: col-
   [class^="col-"] {
-    background-color: orangered;
+    // background-color: orangered;
     float: left;
 
     &:not(:last-child) {
