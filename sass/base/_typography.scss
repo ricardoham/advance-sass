@@ -33,5 +33,14 @@ body {
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-in-out;
   }
+}
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, $color-primay-light, $color-primay-dark);
+  -webkit-background-clip: text;
+  color: transparent;
 }
