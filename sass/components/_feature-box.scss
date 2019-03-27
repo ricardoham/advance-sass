@@ -7,7 +7,13 @@
   box-shadow: 0 1.5rem 4rem rgba($color-black .15);
 
   &__icon {
-
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primay-light, $color-primay-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+  
   }
 
   &__text {
